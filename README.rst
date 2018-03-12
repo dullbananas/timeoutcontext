@@ -21,6 +21,9 @@ timeout context manager and decorator.
 Since it is signal based this package can not work under Windows operating
 system.
 
+It only work in the main thread because only the main thread is allowed to set a
+new signal handler.
+
 Usage
 -----
 
